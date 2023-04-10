@@ -1,8 +1,7 @@
-import Head from 'next/head'  
-import Header from './Header';
-import Footer from './Footer';
-import About from './About';
-import Services from './Services'
+import Head from 'next/head'    
+import About from '../Components/About';
+import Services from '../Components/Services';
+import Location from '../Components/Location'; 
 
 export default function Home() {
   return (
@@ -13,11 +12,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <Header/> 
+      <main> 
         <About/>
-        <Services/>
-        <Footer/>
+        <Services/> 
+        <Location/> 
       </main>
     </>
   )

@@ -1,9 +1,8 @@
-const About = () => {
+const about = () => {
   return (
-    <>
-<div class="aboutsection">
-            <div class="container">
-                <h1>About Us</h1>
+    <div className="aboutsection">
+            <div className="container">
+            <h1>About Us</h1>
                 <p>Looking for a wedding Venue in RT Nagar Bangalore to mark the start of your new life? Warm
 welcome to SSR Palace, the first of its kind luxury and affordable destination for hosting weddings
 and other personal events. Designed to impress at first sight, this SSR Palace function hall will surely
@@ -22,8 +21,7 @@ your wedding in the easiest and most fun way possible. We plan everything from t
 decoration, food, etc.</p>
             </div>
         </div>
-    </>
   )
 }
 
-export default About
+export default about
