@@ -1,4 +1,4 @@
- 
+import Link from 'next/link'
 const Footer = () => {
   return (
     <div> 
@@ -6,18 +6,18 @@ const Footer = () => {
           <div className="container">
              <div className="row">
                 <div className="col-md-4">
-                 <h5> SSR Palace</h5>
+                 <h5>SSR Palace</h5>
                   <p>
-                  MM Layout, Shampura, Kaval Bairasandra, Bengaluru, Karnataka 560032</p> 
+                  SM Plaza,  1st Cross Rd, Shampura, <br/> Kaval Bairasandra, Bengaluru, <br/>  Karnataka 560032</p> 
                 </div>
                 <div className="col-md-4">
                   <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Halls</li>
-                    <li>Services</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
+                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/about">About Us</Link></li>
+                  <li><Link href="/halls">Halls</Link></li>
+                  <li><Link href="/services">Services</Link></li>
+                  <li><Link href="/gallery">Gallery</Link></li>
+                  <li><Link href="/contact">Contact</Link> </li>
                   </ul>
                 </div>
                 <div className="col-md-4">
@@ -25,6 +25,7 @@ const Footer = () => {
                       <li>Phone: +91 8870001377</li>
                       <li>Email: contact@ssrpalace.com</li>
                     </ul>
+                    Follow us 
                 </div>
              </div>
           </div>

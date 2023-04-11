@@ -99,11 +99,18 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.footerMenu {
-  background: #e8e8e8;
-  padding: 40px;
+.introSlider { background: url("/slider.jpg") no-repeat; height: 500px; width: 100%;      background-size: cover;
+  background-position: center;}
+.logo { color: gold;}
+.footerMenu { 
+  background: #152D4F;
+    padding: 40px;
+    color: #fff;
 }
+.footerMenu h5 { color:#f9c14d;}
 .footerMenu ul { margin:0; padding: 0;}
+.footerMenu ul li { list-style: none; padding:2px 0;}
+.footerMenu ul li a { color: #fff; text-decoration: none;}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
